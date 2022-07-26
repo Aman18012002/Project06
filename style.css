@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.toplefticon{
+    font-size: 3.4rem;
+    color: #24A7FF;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.navbar{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.navtext{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgb(114, 114, 114);
+}
+.hometext{
+    color: #000000;
+}
+.navbtn{
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .5rem;
+    border: 2px solid #24A7FF;
+    color: #0192f3;
+    
+}
+.Illustration_Image_right{
+    width: 40rem;  
+}
+.logoTop{
+   width: 2rem;
+}
+.Header{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+    
+}
+.hear-heading{
+    font-size: 4.1rem;
+}
+.HeroPara{
+    font-size: 1.2rem;
+    color: #758283;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btnPakage{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .8rem;
+    cursor: pointer;
+    background-image: linear-gradient(to left top, #69b7ec,#37a8f4);
+}
+.heroSection,.Quality-Section{
+    /* padding: 3rem; */
+}
+.quality-whole-control{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+    
+}
+.heading-quality{
+    font-size: 4.1rem;
+}
+.Quality-para{
+    font-size: 1.2rem;
+    color: #758283;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.img-quality{
+    width: 40rem;
+}
+.technical{
+    width: 40rem;  
+}
+.wholepart-of-technicalsupport{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.technical-para{
+    font-size: 1.2rem;
+    color: #758283;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.technical-heading{
+    font-size: 4.1rem;
+}
+/* Service Heading */
+
+.service-control{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-para{
+    font-size: 1.2rem;
+    color: #758283;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.service-heading{
+    font-size: 3.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Variety Section */
+
+.whole-variety-section-acess-top,.whole-variety-section-acess-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.veriety-1{
+    padding: 2rem;
+}
+.variety-section{
+    padding: 2rem;
+}
+.verirty-img{
+    margin-bottom: 1.5rem;
+}
+.veriety-heading{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Pricing */
+.pricing-heading{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+
+}
+.Price-Section{
+    background-image: linear-gradient(to left top, #69b7ec,#37a8f4);
+    padding: 5rem;
+}
+.pricing-card{
+    background-color: #fff;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 1rem;    
+}
+.toppart-of-card{
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: flex-start;
+}
+.starter-para{
+    margin-bottom: 2rem;
+}
+.features{
+    display: flex;
+    flex-direction: column; 
+    
+}
+.card-price{
+  text-align: center;
+  margin-top: 2rem;
+
+}
+.price-1{
+    font-size: 2.4rem;
+}
+.price-para{
+    color: #758283;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.feture-text-1{
+    list-style: none;
+    line-height: 3.8rem;
+    font-size: 1.2rem;
+}
+.pricebtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-heading{
+    font-size: 1.8rem;
+}
+.starter-para{
+    color: #758283;
+    margin-top: 1rem;
+}
+.wholeacess-of-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+.specailcard{
+
+ border-radius: 1rem;
+}
+.specail-heading{
+  color: #0192f3;
+    
+}
+.speacilbtn{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .8rem;
+    cursor: pointer;
+    background-image: linear-gradient(to left top, #69b7ec,#37a8f4);
+}
+.pricetext{
+    color: #758283;
+}
+
+/* Cutoomer Review Section */
+.heading-customer{
+    text-align: center;
+    font-size: 3.4rem;
+   
+    
+}
+.cutumer-para{
+    text-align: center;
+    color: #758283;
+    font-size: 1.2rem;
+}
+.cutomerheading{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.customers-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.customer-image{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+/* .cutomer-review{
+    padding: 4rem;
+} */
+.about-cutomer-para{
+    font-size: 1.2rem;
+    color: #758283;
+}
+.cutomer-reviews{
+    padding: 3rem;
+    width: 35rem;
+    height: 20rem;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.cutomer-introduction{
+    margin-left: 1rem;
+}
+.first-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.second-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.Registration-section{
+    background-image: linear-gradient(to left top, #69b7ec,#37a8f4);
+}
+.registerbtn{
+    border:2px solid #fff; 
+    background-image: linear-gradient(to left top, #69b7ec,#37a8f4);
+    color: #fff;
+    cursor: pointer;
+}
+.headgiing-registration{
+    font-size: 3.1rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.para-registration{
+    color: #fff;
+}
+.Registration-section{
+    margin-top: 8rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* Footer Part Started From Here */
+.Logo{
+    display: flex;
+    flex-direction: column;
+}
+.para-registration{
+    line-height: 3rem;
+}
+
+.speaciltext{
+  font-weight: 600;
+  font-size: 2.4rem;
+    
+}
+.footer{
+    display: flex;
+   
+    justify-content: space-around;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.menutext{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.Social-Media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Icon{
+    list-style: none;
+    font-size: 1.8rem;
+    margin-left: 1.2rem;
+  
+    
+}
+.speaciltext:hover{
+    color: #0192f3;
+    cursor: pointer;
+    
+}
+.Icon:hover{
+    color: #0192f3;
+    cursor: pointer;
+}
