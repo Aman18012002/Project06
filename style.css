@@ -20,25 +20,23 @@
 .navigation{
    padding: 5px;
 }
-.navbtn{
-background-color: #24A7FF;
-padding-left: 7px;
-padding-right: 7px;
-padding-top: 3px;
-padding-bottom: 5px;
-color: #fff;
- }   
+  
 }
 
 
 @media only screen and (max-width: 360px) {
 .logoTop{
-    width: 1rem;
+    width: 3rem;
 }   
-    
+
+
 }
 
-
+@media (max-width:480px){
+    html{
+        font-size:65%;
+    }
+}
 
 
 
@@ -217,7 +215,7 @@ color: #fff;
     font-size: 1.2rem;
     color: #758283;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .technical-heading{
     font-size: 4.1rem;
@@ -228,39 +226,44 @@ color: #fff;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center ;
+  
 }
 .service-para{
     font-size: 1.2rem;
     color: #758283;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+   
+    
 }
 .service-heading{
-    font-size: 3.1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-size: 3.1rem; 
 }
 /* Variety Section */
-
+.veriety-para{
+    text-align: center;
+}
 .whole-variety-section-acess-top,.whole-variety-section-acess-bottom{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
-.veriety-1{
-    padding: 2rem;
-}
+
 .variety-section{
-    padding: 2rem;
+    padding: 3rem;
+   
 }
 .verirty-img{
     margin-bottom: 1.5rem;
 }
 .veriety-heading{
     font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+   
+}
+.veriety-1{
+    margin-bottom: 1rem;
 }
 
 /* Pricing */
@@ -363,9 +366,12 @@ color: #fff;
 .heading-customer{
     text-align: center;
     font-size: 3.4rem;
-   
-    
 }
+.cutomerheading{
+padding: 2rem;
+}   
+    
+
 .cutumer-para{
     text-align: center;
     color: #758283;
@@ -393,9 +399,12 @@ color: #fff;
     color: #758283;
 }
 .cutomer-reviews{
-    padding: 3rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
     width: 35rem;
-    height: 20rem;
+    height: 18rem;
     border-radius: .5rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     display: flex;
